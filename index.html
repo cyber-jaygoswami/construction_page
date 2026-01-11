@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f2f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 30px 20px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            max-width: 90%;
+            width: 450px;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+
+        /* Button Styling */
+        .contact-btn {
+            display: inline-block;
+            background-color: #007bff; /* Blue color */
+            color: white;
+            padding: 12px 28px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+        }
+
+        .contact-btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+        }
+
+        /* Make email bold in text */
+        .email-highlight {
+            color: #007bff;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <video autoplay loop muted playsinline>
+            <source src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/website-is-under-construction-animation-gif-download-6516028.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h1>We are building something great!</h1>
+
+        <p>
+            Our website is currently under construction, but you can contact us at 
+            <span class="email-highlight">info@hackerjay.com</span> for any queries.
+        </p>
+
+        <a href="mailto:info@hackerjay.com" class="contact-btn">Contact Us</a>
+        or go to our    
+        <a href="admin.html" class="contact-btn">Admin Panel</a>
+    </div>
+
+</body>
+</html>
